@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+	background-attachment: fixed;
+}
+header{
+	background-image:url(heartp.jpeg); 
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main ul{
+	float:left;
+	list-style-type:none;
+	margin-top:30px;
+
+}
+.main ul li{
+	display: inline-block;
+
+}
+.main ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 5px 35px;
+	border-color: black;
+	transition: 0.5s ease;
+}
+.main ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.main ul li.active a
+{
+	background-color: #000;
+	color: #fff;
+}
+
+.footer{
+			position: fixed;
+			height: 7%;
+			left:0;
+			bottom: 0;
+			width: 100%;
+			background-color: pink;
+			color:black;
+			padding-left:20px;
+			padding-top:20px;
+		}
+.footer p{
+	text-align:right;
+	bottom:30%;
+	right:5%;
+	position:relative;
+	
+}
+.ngo
+{
+
+	width:700px;
+	height:250px;
+	background-color:transparent;
+	color:black;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:70%;
+	top:20%;
+	padding:70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.ngo2
+{
+	width:200px;
+	height:50px;
+	background-color:transparent;
+	color:black;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:10%;
+	top:25%;
+	padding:70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.ourquote
+{
+	height:350px;
+	width:500px;
+	top:25%;
+	left:20%;
+	position:absolute;
+	border-radius:15px;
+}
+s

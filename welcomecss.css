@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+header{
+	background-image:url(heartp.jpeg); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main ul{
+	float: left;
+	list-style-type:none;
+	margin-top: 25px;
+
+}
+.main ul li{
+	display: inline-block;
+
+}
+.main ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 5px 35px;
+	border-color: black;
+	transition: 0.5s ease;
+}
+.main ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.main ul li.active a
+{
+	background-color: #000;
+	color: #fff;
+}
+.quote
+{
+	height:430px;
+	width:800px;
+	background-color:black;
+	color:white;
+	position:absolute;
+	left:25%;
+	top:20%;
+	background:rgba(0,0,0,0.7);
+	font-size:40px;
+	text-align: center;
+	border-radius:30px;
+
+}
+ 
+
+
+.logo
+{
+	border-radius:100px;
+	position:absolute;
+	left:15%;
+	top:50%;
+}
+.footer{
+			position: fixed;
+			height: 7%;
+			left:0;
+			bottom: 0;
+			width: 100%;
+			background-color:pink;
+			padding-left:20px;
+			padding-top:20px;
+			font-size: 20px;
+		}
+.footer p{
+	text-align: right;
+	padding-right:50px;
+	right:0;
+	top:0;
+	bottom:0;
+
+}

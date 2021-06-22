@@ -1,0 +1,112 @@
+ body{
+ 	margin:0;
+ 	padding: 0;
+ 	background-image: url(image1.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	height:100vh;
+ 	background-attachment: fixed;
+ 	font-family: Century Gothic;
+
+ }
+ .form
+ {
+ 	width:350px;
+	height:400px;
+	background-color:transparent;
+	color:black;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:60%;
+	top:50%;
+	padding:70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-size: 20px;
+ }
+
+ .box
+{
+
+	width:350px;
+	height:400px;
+	background-color:transparent;
+	color:black;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:60%;
+	top:50%;
+	padding:70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.quote
+{
+	width:100px;
+	height:100px;
+	left:130px;
+	top:-50px;
+	position: absolute;
+	border-radius: 50%;
+
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+.box input{
+	width:100%;
+	margin-bottom: 20px;
+
+}
+
+.box input[type="text"],input[type="password"]
+	{
+	border: none;
+	border-bottom: 1px solid #000;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+
+}
+.box input[type="submit"]
+{
+	border: none;
+	outline:none;
+	height:40px;
+	background-color: black;
+	color:white;
+	font-size: 20px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+
+}
+
+.box input[type="submit"]:hover{
+	cursor: pointer;
+	background-color:#3C6989;
+	color:white;
+}
+
+.box a{
+	text-decoration:underline;
+	font-size: 12px;
+	line-height: 20px;
+	color:black;
+	transition: 0.4s ease;
+}
+
+.box a hover
+{
+
+	color:#3C6989;
+}

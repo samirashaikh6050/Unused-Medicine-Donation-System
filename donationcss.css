@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(image1.jpg); 
+	background-attachment: fixed;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	font-family:Calibri;
+	text-align: center;
+}
+
+.simpleform
+{
+	width:400px;
+	height:50px;
+	background-color:black;
+	color:white;
+	background:rgba(0,0,0,0.8);
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:60%;
+	top:65%;
+	text-align: left;
+	padding:70px 30px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius:50px;
+
+}
+
+
+.simpleform input[type="submit"]
+{
+	border: none;
+	outline:none;
+	height:35px;
+	width: 90px;
+	background-color:white;
+	color:black;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: 0.4s ease;
+	position:relative;
+	left:15%;
+
+}
+
+.simpleform h1
+{
+	position:relative;
+	left:10%;
+	top:-25px;
+}
+.simpleform input[type="submit"]:hover{
+	cursor: pointer;
+	background-color:#3C6989;
+	color:black;
+	size:20px;
+}
+
+.simpleform input[type="reset"]
+{
+	border: none;
+	outline:none;
+	height:40px;
+	width: 90px;
+	background-color: white;
+	color:black;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: 0.4s ease;
+	position:relative;
+	left:25%;
+
+}
+
+.simpleform input[type="reset"]:hover{
+	cursor: pointer;
+	background-color:#3C6989;
+	color:white;
+}
+
+.form
+{
+	width:400px;
+	height:500px;
+	background-color:transparent;
+	color:black;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:60%;
+	top:60%;
+	text-align: left;
+	padding:70px 30px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
